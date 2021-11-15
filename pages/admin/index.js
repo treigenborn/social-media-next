@@ -10,10 +10,12 @@ import { useRouter } from 'next/router';
 import { useCollection } from 'react-firebase-hooks/firestore';
 import kebabCase from 'lodash.kebabcase';
 import toast from 'react-hot-toast';
+import Metatags from '../../components/Metatags';
 
 export default function AdminPostsPage(props) {
   return (
     <main>
+      <Metatags title='Create and manage your posts' />
       <AuthCheck>
         <PostList />
         <CreateNewPost />
