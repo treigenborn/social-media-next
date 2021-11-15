@@ -1,4 +1,4 @@
-import styles from '../../styles/Admin.module.css';
+import styles from '../../styles/admin.module.css';
 import AuthCheck from '../../components/AuthCheck';
 import PostFeed from '../../components/PostFeed';
 import { UserContext } from '../../lib/context';
